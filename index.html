@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="dark">
+    <header class="header">
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+                <img id="toggle-icon" src="assets/icons/sun.svg" alt="theme icon" class="toggle-theme__icon">
+                <p id="toggle-text" class="toogle-theme__text">Light mode</p>
+            </div>
+        </div>
+        <div id="toggle-colors" class="colors">
+            <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+            <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+            <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+            <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="column column--left">
+            <!-- PROFILE CARD -->
+            <article class="card card--profile">
+                <div class="card__image-container">
+                    <img src="assets/images/profile.jpg" alt="profile picture">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title no-margin">Ulices Vazquez</h2>
+                    <p class="card__subtitle">Web Developer</p>
+                </div>
+                <div class="card__body">
+                    <div class="card__link">
+                        <i class="fas fa-envelope icon"></i>
+                        <a href="mailto:uliv.contacto@gmail.com">uliv.contacto@gmail.com</a>
+                    </div>
+                    <div class="card__link">
+                        <i class="fas fa-phone-alt icon"></i>
+                        <a href="tel:5492645315313">+54 9 264 531-5313</a>
+                    </div>
+                    <p class="card__text">
+                        Soy Ulices Vazquez, desarrollador web especializado en front-end con experiencia en HTML, CSS y
+                        JavaScript. Me apasiona crear experiencias de usuario intuitivas y atractivas. Tengo habilidades
+                        en diseño gráfico con herramientas como Photoshop e Illustrator, así como en desarrollo de
+                        videojuegos y resolución de problemas. Siempre busco aprender y mejorar mis habilidades,
+                        manteniéndome al día con las últimas tendencias y tecnologías del sector. Gracias por visitar mi
+                        portfolio. Si tienes alguna pregunta o propuesta de colaboración, no dudes en contactarme. Estoy
+                        abierto a nuevas ideas y oportunidades.
+                    </p>
+                </div>
+            </article>
+            <article class="card card--experience">
+                <h2 class="card__title">Experiences</h2>
+                <div class="experience">
+                    <div class="experience__info">
+                        <p class="experience__time">
+                            2020 - 2022
+                        </p>
+                        <h3 class="experience__job">
+                            Administrative Assistant
+                        </h3>
+                        <p class="experience__description">
+                            Como Asistente Administrativo, gestiono tareas administrativas diarias, incluyendo la
+                            organización de agendas, la coordinación de reuniones y la gestión de comunicaciones.
+                            Además, apoyo en la elaboración de informes y la administración de documentación.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--hobbies">
+                <h2 class="card__title">Hobbies</h2>
+                <h3 class="hobby__title">Gaming</h3>
+                <p class="card__text">En mi tiempo libre, disfruto jugando videojuegos, lo cual me permite relajarme y
+                    mantenerme al día con las últimas tendencias en entretenimiento digital.</p>
+                <h3 class="hobby__title">language Learning</h3>
+                <p class="card__text">Disfruto aprendiendo nuevos idiomas, estudiando y comunicándome con extranjeros.
+                    tengo nivel intermedio de inglés y nivel básico de japonés.</p>
+            </article>
+        </section>
+        <section class="column column--right">
+            <!-- DISCIPLINES AND TECHS -->
+            <article class="card">
+                <h2 class="card__title no-margin">Web Development</h2>
+                <small style="opacity: 0.8;">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skills__header">
+                        <span class="skills__start-level">0</span>
+                        <span class="skills__start-level">6</span>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">CSS</p>
+                        <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Python</p>
+                        <div class="skills__bar skills__bar--10"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Prompt Engineer</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title no-margin">Graphic Design and Multimedia</h2>
+                <small style="opacity: 0.8;">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skills__header">
+                        <span class="skills__start-level">0</span>
+                        <span class="skills__start-level">6</span>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Photoshop</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Illustrator</p>
+                        <div class="skills__bar skills__bar--10"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Aseprite</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Piskel</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Video Editing</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Film Directing</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">AutoCAD</p>
+                        <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Blender</p>
+                        <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title no-margin">Writing and Composition</h2>
+                <small style="opacity: 0.8;">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skills__header">
+                        <span class="skills__start-level">0</span>
+                        <span class="skills__start-level">6</span>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Novel Writing</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Songwriter</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Composer</p>
+                        <div class="skills__bar skills__bar--10"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Storytelling</p>
+                        <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title no-margin">Game Development</h2>
+                <small style="opacity: 0.8;">Años de experiencia</small>
+                <div class="skills">
+                    <div class="skills__header">
+                        <span class="skills__start-level">0</span>
+                        <span class="skills__start-level">6</span>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Roblox</p>
+                        <div class="skills__bar skills__bar--10"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Construct 2</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">RPG Maker XP</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/LevelRo.png" alt="landing page">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#SASS</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">Level Ro Confecciones</h2>
+                    <p class="card__text">
+                        Para el proyecto final de un curso de desarrollo web, creé una página web responsive utilizando
+                        HTML, CSS y SASS. El objetivo del proyecto era desarrollar un e-commerce básico para promocionar
+                        el negocio de ropa de mi mamá. La página está diseñada para adaptarse a diferentes dispositivos,
+                        asegurando una experiencia de usuario óptima tanto en móviles como en computadoras. Utilicé HTML
+                        para estructurar el contenido y CSS para estilizar la página, implementando SASS para mejorar la
+                        eficiencia del código CSS. El sitio incluye una presentación visual atractiva de los productos,
+                        con imágenes de alta calidad y descripciones detalladas, además de una estructura de navegación
+                        sencilla e intuitiva, facilitando a los usuarios encontrar y explorar los productos. La página
+                        web sirve como una plataforma para aumentar la visibilidad del negocio de mi mamá, atrayendo
+                        potenciales clientes y facilitando la comunicación. Este proyecto no solo me permitió aplicar
+                        mis conocimientos técnicos en un contexto práctico, sino que también me dio la oportunidad de
+                        contribuir al crecimiento del negocio familiar.
+                    </p>
+                    <div class="buttons">
+                        <a href="https://level-ro.netlify.app/" target="_blank" class="button button--primary">Demo</a>
+                        <a href="https://github.com/UliVazquez/levelRo" target="_blank"
+                            class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/eclipse.jpg" alt="landing page">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#Responsive</span>
+                    </div>
+                    <h2 class="card__title">Ecliptic Discovery</h2>
+                    <p class="card__text">
+                        Para un hackatón de la NASA realizado en 2023, desarrollé una página web donde los usuarios
+                        pueden ingresar el nombre de un país y obtener información sobre los próximos eclipses visibles
+                        desde dicho país. Utilicé tecnologías web como HTML, CSS y JavaScript para crear una interfaz
+                        intuitiva y fácil de usar. La aplicación consulta una API de datos astronómicos para
+                        proporcionar información precisa y actualizada sobre los eclipses. Este proyecto no solo destacó
+                        por su utilidad y funcionalidad, sino también por su capacidad para fomentar el interés en
+                        eventos astronómicos y la ciencia espacial entre los usuarios.
+                    </p>
+                    <div class="buttons">
+                        <a href="https://ecliptic-discovery.netlify.app/" target="_blank"
+                            class="button button--primary">Demo</a>
+                        <a href="https://github.com/UliVazquez/Ecliptic-Discovery" target="_blank"
+                            class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
